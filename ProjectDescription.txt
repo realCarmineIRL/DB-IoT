@@ -1,0 +1,34 @@
+Product Information Management.
+
+This is a software that will keep track of products sold by customers in online stores.
+
+Entities:
+    - customer
+    - online store
+    - product
+    - product information
+    - product attribute
+    - availability status
+
+    customer: it is the manufactor or seller of a particular product.. example Colgate, Samsung, Nintendo.
+
+    online store: it is the medium which the products are being sold. example Amazon, Boots.
+
+    product: it's a product being sold in a online store.
+
+    product information: contains product codes, description and identifiers. example UPC, RPC.
+
+    product attribute: it's the category on which the product is being sold. this can be vary between online stores.
+
+    availability status: it's the availability of the product in an specific date.
+
+Relations:
+    - customers has products
+    - online store sells products
+    - products has product information
+    - products has product attributes
+    - product_hist contains products
+    - product_hist has availability_status
+
+ERD:
+    Please find PDF attached file DatabaseER-CA1.pdf with the ERD you will find the Relations between the Entities in it.

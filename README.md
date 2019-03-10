@@ -5,3 +5,10 @@
     docker stop $(docker ps -a -q)
     docker rm $(docker ps -a -q)
     docker rmi $(docker images -q )
+
+# connet into the db:
+    you can connect using your favorite IDE or via command line.
+    host: localhost
+    port: 3306
+    user: root
+    pass: password
