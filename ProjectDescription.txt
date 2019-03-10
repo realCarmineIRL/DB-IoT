@@ -32,3 +32,6 @@ Relations:
 
 ERD:
     Please find PDF attached file DatabaseER-CA1.pdf with the ERD you will find the Relations between the Entities in it.
+
+Note:
+    all files can be also found in https://github.com/realCarmineIRL/DB-IoT
