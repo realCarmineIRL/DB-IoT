@@ -35,3 +35,8 @@ ERD:
 
 Note:
     all files can be also found in https://github.com/realCarmineIRL/DB-IoT
+
+
+-- CA2 Update.
+
+schema changes in order to accomodate orders and stocks tables.
