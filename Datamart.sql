@@ -38,6 +38,18 @@ where week(order_date) = 40;
 
 select * from datamart.week40_transactions;
 
+-- 2. Create trigger to update stocks
+
+-- trigger is commented out as it is included in the DW-dump.sql file.
+
+/*CREATE TRIGGER update_stock AFTER INSERT ON order_details
+  FOR EACH ROW BEGIN
+    UPDATE product 
+    SET quantity = quantity - NEW.quantity
+    WHERE product_id = NEW.product_id;
+  END;
+*/
+
 -- 3. Create a view of stock (by supplier) purchased by you
 create view datamart.available_stock as
 select brand, sum(available_stock) available_stock from datamart.transactions
