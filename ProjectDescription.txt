@@ -40,3 +40,10 @@ Note:
 -- CA2 Update.
 
 schema changes in order to accomodate orders and stocks tables.
+
+- tables orders and order_details were added.
+- availability_status and product_attribute were deleted
+
+the system now is a mega online store. where people can make oders and the store orders the products from the different online stores in order to fullfil the cliente request.
+
+Datamart.sql contains the creation of the datamart schema and all views used in the reports.
